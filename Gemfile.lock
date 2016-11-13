@@ -4,12 +4,16 @@ GEM
     amq-protocol (2.0.1)
     bunny (2.6.1)
       amq-protocol (>= 2.0.1)
+    daemons (1.2.4)
+    redis (3.3.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  bunny
+  bunny (= 2.6.1)
+  daemons (= 1.2.4)
+  redis (= 3.3.1)
 
 BUNDLED WITH
    1.13.6

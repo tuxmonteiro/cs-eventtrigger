@@ -1,3 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'bunny'
+gem 'bunny', '2.6.1'
+gem 'redis', '3.3.1'
+gem 'daemons', '1.2.4'
